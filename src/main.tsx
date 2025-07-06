@@ -1,8 +1,9 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import '../public/styles/reset.css'
-import '../public/styles/styles.css'
-import '../public/styles/fonts.css'
+// import '../public/styles/fonts.css'
+// import '../public/styles/reset.css'
+// import '../public/styles/styles.css'
+
 
 function Header() {
   let [expanded, setExpanded] = React.useState(false);
