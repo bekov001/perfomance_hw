@@ -1,0 +1,31 @@
+{
+    "name": "shri2025-performancetask",
+    "version": "1.0.0",
+    "description": "Оптимизировать страницу, выложить результат на Github-Pages",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel app.jsx --out-file app.compiled.js",
+        "watch": "babel app.jsx --out-file app.compiled.js --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/galagrin/shri2025-performancetask.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/galagrin/shri2025-performancetask/issues"
+    },
+    "homepage": "https://github.com/galagrin/shri2025-performancetask#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.27.2",
+        "@babel/core": "^7.27.7",
+        "@babel/preset-react": "^7.27.1",
+        "terser": "^5.43.1"
+    },
+    "dependencies": {
+        "clean-css": "^5.3.3"
+    }
+}
